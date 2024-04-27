@@ -61,3 +61,9 @@ SELECT * FROM Expositions;
 SELECT * FROM Paintings;
 
 ![Paintings](https://cdn.discordapp.com/attachments/1148205618965000283/1233651527923798078/image.png?ex=662ddf04&is=662c8d84&hm=8bd72b269b1c0075414bc40844bce09ede3ce9c515335ebc6532501cad06af69&)
+
+### Функция UNION
+
+![UNION](https://cdn.discordapp.com/attachments/1148205618965000283/1233654364615479316/image.png?ex=662de1a8&is=662c9028&hm=6cb3a00c2791bbfc76981f2cdaef4c070ada01db958a0e5885e4f1cb14acc735&)
+
+Результирующая таблица будет содержать информацию о художниках (имя, день рождения, жанр) и информацию о картинах (имя картины, дата написания). Если у художника нет картины или у картины нет художника, то в столбце будет значение NULL.
